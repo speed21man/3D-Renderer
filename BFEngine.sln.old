@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BFEngine", "BFEngine\BFEngine.vcproj", "{111B19A5-D8E3-4794-A104-5C98F8530074}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loader", "Loader\Loader.vcproj", "{DEA35A97-4DE9-4078-899E-A70968AA65B4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{111B19A5-D8E3-4794-A104-5C98F8530074} = {111B19A5-D8E3-4794-A104-5C98F8530074}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{111B19A5-D8E3-4794-A104-5C98F8530074}.Debug.ActiveCfg = Debug|Win32
+		{111B19A5-D8E3-4794-A104-5C98F8530074}.Debug.Build.0 = Debug|Win32
+		{111B19A5-D8E3-4794-A104-5C98F8530074}.Release.ActiveCfg = Release|Win32
+		{111B19A5-D8E3-4794-A104-5C98F8530074}.Release.Build.0 = Release|Win32
+		{DEA35A97-4DE9-4078-899E-A70968AA65B4}.Debug.ActiveCfg = Debug|Win32
+		{DEA35A97-4DE9-4078-899E-A70968AA65B4}.Debug.Build.0 = Debug|Win32
+		{DEA35A97-4DE9-4078-899E-A70968AA65B4}.Release.ActiveCfg = Release|Win32
+		{DEA35A97-4DE9-4078-899E-A70968AA65B4}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

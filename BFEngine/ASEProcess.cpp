@@ -1,0 +1,43 @@
+#include "ASEProcess.h"
+#include "./global.h"
+
+///////////////////////////////////////////////////////
+// PTCN
+///////////////////////////////////////////////////////
+bool CASE_PTCN_Frame::ASEFrame(CASEMesh& AseMesh)
+{
+
+
+	return true;
+}
+
+bool CASE_PTCN_Frame::ASERender(CASEMesh& AseMesh)
+{
+	return true;
+}
+
+///////////////////////////////////////////////////////
+// PTN
+///////////////////////////////////////////////////////
+bool CASE_PTN_Frame::ASEFrame(CASEMesh& AseMesh)
+{
+	return true;
+}
+
+bool CASE_PTN_Frame::ASERender(CASEMesh& AseMesh)
+{
+	return true;
+}
+
+///////////////////////////////////////////////////////
+// PN
+///////////////////////////////////////////////////////
+bool CASE_PN_Frame::ASEFrame(CASEMesh& AseMesh)
+{
+	return true;
+}
+
+bool CASE_PN_Frame::ASERender(CASEMesh& AseMesh)
+{
+	return true;
+}

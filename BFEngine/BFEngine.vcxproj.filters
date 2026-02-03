@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="전역 변수">
+      <UniqueIdentifier>{963ed72d-17fd-4d81-9308-7a993875f28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mgt">
+      <UniqueIdentifier>{a42651fd-4be4-4217-92b0-dc2cdb28399f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEParser">
+      <UniqueIdentifier>{15b581d4-94b1-4f2b-817b-212720725be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEParser\Parser">
+      <UniqueIdentifier>{c2f491ec-2568-4f8c-81ce-4b76e3ce4a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEParser\ASEParserDef">
+      <UniqueIdentifier>{1e21e276-9422-4a8e-94f5-ec9f4783e117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SkyMap">
+      <UniqueIdentifier>{b88293c2-d704-4f14-853c-26a7052083e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="CDrawObject">
+      <UniqueIdentifier>{b41702b0-df02-4951-8834-325f9b04e459}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CPlane">
+      <UniqueIdentifier>{8049b559-ab8f-41f5-be5a-5c1471ba8abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CPlane\CPlaneStatus">
+      <UniqueIdentifier>{4807c257-9d6b-4701-9aa9-7430d6d8be2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CPlane\CPlaneStatus\CPlaneBillBoard">
+      <UniqueIdentifier>{3c4a5c3c-7c0e-4fb6-ac7e-f30f592ea544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CPlane\CPlaneStatus\CPlaneAnimation">
+      <UniqueIdentifier>{361de638-5a97-497f-aa54-bc4555d2e8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CPlane\CPlaneStatus\CPlaneOrthoAnimation">
+      <UniqueIdentifier>{2da3123b-7b2e-4098-93e4-83a8d623f435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CMesh">
+      <UniqueIdentifier>{69a54e57-81eb-452e-b062-2b7750e0633c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CMesh\CMeshStatus">
+      <UniqueIdentifier>{804f47b0-6b86-4984-9668-308401f74646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CMesh\CMeshStatus\CASEMesh">
+      <UniqueIdentifier>{e8357076-5874-4b9c-bad7-f44279b416ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CControlObject">
+      <UniqueIdentifier>{fcb10880-ea98-4eef-8ff6-266ad2ae8216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CControlObject\CCtlObjBillBoard">
+      <UniqueIdentifier>{c8c0e290-e63a-412b-b6de-524935ca2f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDrawObject\CControlObject\CCtlObjOrtho">
+      <UniqueIdentifier>{7cb75c0b-d7b5-46dd-8d4c-f4ff96a52911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{7ce3bcc2-f795-4012-8eb7-0bb2c81b2d17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BFEngine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawObjectMgt.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResObjMgt.cpp">
+      <Filter>Mgt</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceMgt.cpp">
+      <Filter>Mgt</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEMeshParser.cpp">
+      <Filter>ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEParser.cpp">
+      <Filter>ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEGeoObjParser.cpp">
+      <Filter>ASEParser\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEMtrlParser.cpp">
+      <Filter>ASEParser\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASESceneParser.cpp">
+      <Filter>ASEParser\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyMap.cpp">
+      <Filter>SkyMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>CDrawObject\CPlane</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneStatus.cpp">
+      <Filter>CDrawObject\CPlane\CPlaneStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneBillBoard.cpp">
+      <Filter>CDrawObject\CPlane\CPlaneStatus\CPlaneBillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneAnimation.cpp">
+      <Filter>CDrawObject\CPlane\CPlaneStatus\CPlaneAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneOrthoAnimation.cpp">
+      <Filter>CDrawObject\CPlane\CPlaneStatus\CPlaneOrthoAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>CDrawObject\CMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshStatus.cpp">
+      <Filter>CDrawObject\CMesh\CMeshStatus</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEMesh.cpp">
+      <Filter>CDrawObject\CMesh\CMeshStatus\CASEMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEProcess.cpp">
+      <Filter>CDrawObject\CMesh\CMeshStatus\CASEMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlObject.cpp">
+      <Filter>CDrawObject\CControlObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CtlObjBillBoard.cpp">
+      <Filter>CDrawObject\CControlObject\CCtlObjBillBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="CtlObjOrtho.cpp">
+      <Filter>CDrawObject\CControlObject\CCtlObjOrtho</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BFEngine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawObjectMgt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>전역 변수</Filter>
+    </ClInclude>
+    <ClInclude Include="Std.h">
+      <Filter>전역 변수</Filter>
+    </ClInclude>
+    <ClInclude Include="ResObjMgt.h">
+      <Filter>Mgt</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceMgt.h">
+      <Filter>Mgt</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEMeshParser.h">
+      <Filter>ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEParser.h">
+      <Filter>ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEGeoObjParser.h">
+      <Filter>ASEParser\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEMtrlParser.h">
+      <Filter>ASEParser\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASESceneParser.h">
+      <Filter>ASEParser\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEParserDef.h">
+      <Filter>ASEParser\ASEParserDef</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyMap.h">
+      <Filter>SkyMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>CDrawObject\CPlane</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneStatus.h">
+      <Filter>CDrawObject\CPlane\CPlaneStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneBillBoard.h">
+      <Filter>CDrawObject\CPlane\CPlaneStatus\CPlaneBillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneAnimation.h">
+      <Filter>CDrawObject\CPlane\CPlaneStatus\CPlaneAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneOrthoAnimation.h">
+      <Filter>CDrawObject\CPlane\CPlaneStatus\CPlaneOrthoAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>CDrawObject\CMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshStatus.h">
+      <Filter>CDrawObject\CMesh\CMeshStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEMesh.h">
+      <Filter>CDrawObject\CMesh\CMeshStatus\CASEMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEProcess.h">
+      <Filter>CDrawObject\CMesh\CMeshStatus\CASEMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlObject.h">
+      <Filter>CDrawObject\CControlObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CtlObjBillBoard.h">
+      <Filter>CDrawObject\CControlObject\CCtlObjBillBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="CtlObjOrtho.h">
+      <Filter>CDrawObject\CControlObject\CCtlObjOrtho</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{111B19A5-D8E3-4794-A104-5C98F8530074}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>../Lib/BFEngine.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BFEngine.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="D3D.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="DrawObject.cpp" />
+    <ClCompile Include="DrawObjectMgt.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="ResObjMgt.cpp" />
+    <ClCompile Include="ResourceMgt.cpp" />
+    <ClCompile Include="ASEMeshParser.cpp" />
+    <ClCompile Include="ASEParser.cpp" />
+    <ClCompile Include="ASEGeoObjParser.cpp" />
+    <ClCompile Include="ASEMtrlParser.cpp" />
+    <ClCompile Include="ASESceneParser.cpp" />
+    <ClCompile Include="SkyMap.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PlaneStatus.cpp" />
+    <ClCompile Include="PlaneBillBoard.cpp" />
+    <ClCompile Include="PlaneAnimation.cpp" />
+    <ClCompile Include="PlaneOrthoAnimation.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="MeshStatus.cpp" />
+    <ClCompile Include="ASEMesh.cpp" />
+    <ClCompile Include="ASEProcess.cpp" />
+    <ClCompile Include="ControlObject.cpp" />
+    <ClCompile Include="CtlObjBillBoard.cpp" />
+    <ClCompile Include="CtlObjOrtho.cpp" />
+    <ClCompile Include="DebugCamera.cpp" />
+    <ClCompile Include="StaticCamera.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BFEngine.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="D3D.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="DrawObject.h" />
+    <ClInclude Include="DrawObjectMgt.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="Std.h" />
+    <ClInclude Include="ResObjMgt.h" />
+    <ClInclude Include="ResourceMgt.h" />
+    <ClInclude Include="ASEMeshParser.h" />
+    <ClInclude Include="ASEParser.h" />
+    <ClInclude Include="ASEGeoObjParser.h" />
+    <ClInclude Include="ASEMtrlParser.h" />
+    <ClInclude Include="ASESceneParser.h" />
+    <ClInclude Include="ASEParserDef.h" />
+    <ClInclude Include="SkyMap.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="PlaneStatus.h" />
+    <ClInclude Include="PlaneBillBoard.h" />
+    <ClInclude Include="PlaneAnimation.h" />
+    <ClInclude Include="PlaneOrthoAnimation.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="MeshStatus.h" />
+    <ClInclude Include="ASEMesh.h" />
+    <ClInclude Include="ASEProcess.h" />
+    <ClInclude Include="ControlObject.h" />
+    <ClInclude Include="CtlObjBillBoard.h" />
+    <ClInclude Include="CtlObjOrtho.h" />
+    <ClInclude Include="DebugCamera.h" />
+    <ClInclude Include="StaticCamera.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
